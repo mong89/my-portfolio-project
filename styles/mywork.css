@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #f8d9c7;
+  --secondary-color: #935421;
+  --button-color: #f5b2a3;
+}
+
+body {
+  font-family: "Averia Serif Libre", cursive;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  color: var(--secondary-color);
+  margin-top: 60px;
+  line-height: 2;
+}
+
+h3 {
+  text-align: center;
+  font-size: 28px;
+  color: var(--secondary-color);
+}
