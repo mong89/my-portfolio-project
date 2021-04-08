@@ -10,6 +10,31 @@ body {
   font-family: "Averia Serif Libre", cursive;
 }
 
+nav {
+  padding: 25px 0px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+}
+
 .hero {
   background-color: bisque;
   text-align: center;
