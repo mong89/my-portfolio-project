@@ -1,40 +1,61 @@
 :root {
   --primary-color: #f8d9c7;
   --secondary-color: #935421;
+  --branding-color: #8e286b;
   --button-color: #f5b2a3;
 }
 
 body {
   font-family: "Averia Serif Libre", cursive;
 }
-.container {
+.content-container {
+  margin: 30px 30px;
   margin-top: 70px;
-  padding: 100px;
+  padding: 40px;
+  border-radius: 20px;
   color: var(--secondary-color);
+  background-color: bisque;
 }
 
-.img-fluid {
+img {
   display: flex;
   margin: 30px 0;
-  border-radius: 25px;
-  padding: 15px;
+  margin-top: 30px;
+  border-radius: 50px;
+  padding: 40px;
 }
 
 h2 {
   text-align: center;
-  margin-bottom: 20px;
+  font-size: 35px;
+  margin-top: 80px;
+  color: var(--secondary-color);
 }
 
 h3 {
   text-align: center;
+  font-size: 26px;
   margin-bottom: 20px;
 }
 
 p {
   text-align: justify;
+  font-size: 17px;
+  line-height: 1.5;
 }
 
+a {
+  color: var(--branding-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
 .btn {
-  background: var(--button-color);
+  background: var(--branding-color);
   margin-right: 70px;
+}
+
+.btn:hover {
+  background: var(--button-color);
 }

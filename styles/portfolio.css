@@ -1,6 +1,7 @@
 :root {
   --primary-color: #f8d9c7;
   --secondary-color: #935421;
+  --branding-color: #8e286b;
   --button-color: #f5b2a3;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -11,7 +12,7 @@ body {
 }
 
 nav {
-  padding: 25px 0px;
+  padding: 18px 0px;
 }
 
 nav ul {
@@ -32,13 +33,13 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--secondary-color);
+  color: var(--branding-color);
 }
 
 .hero {
   background-color: bisque;
   text-align: center;
-  padding: 120px 20px;
+  padding: 100px 20px;
 }
 
 .hero h3 {
@@ -83,9 +84,13 @@ nav li.active a {
   margin: 0 auto;
 }
 
-.btn {
-  background: var(--button-color);
+.about-paragraphs a {
+  background: var(--branding-color);
   margin-top: 15px;
+}
+
+.about-paragraphs a:hover {
+  background: var(--button-color);
 }
 
 .img-thumbnail {
@@ -106,26 +111,30 @@ footer h4 {
 
 footer .contact-links a {
   margin: 0 20px;
-  color: var(--secondary-color);
+  color: var(--branding-color);
   font-size: 30px;
 }
 
 footer .contact-links a:hover {
-  color: black;
+  color: var(--button-color);
 }
 footer p {
   font-size: 16px;
 }
 
 footer .github-link {
-  color: var(--secondary-color);
+  color: var(--branding-color);
 }
 
 footer .github-link:hover {
-  color: black;
+  color: var(--button-color);
 }
 @media (max-width: 900px) {
   h1 {
     font-size: 30px;
+  }
+
+  nav a {
+    font-size: 11px;
   }
 }

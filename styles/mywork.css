@@ -1,6 +1,7 @@
 :root {
   --primary-color: #f8d9c7;
   --secondary-color: #935421;
+  --branding-color: #8e286b;
   --button-color: #f5b2a3;
 }
 
@@ -12,7 +13,7 @@ h2 {
   text-align: center;
   font-size: 35px;
   color: var(--secondary-color);
-  margin-top: 60px;
+  margin-top: 80px;
   line-height: 2;
 }
 

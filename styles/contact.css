@@ -1,6 +1,7 @@
 :root {
   --primary-color: #f8d9c7;
   --secondary-color: #935421;
+  --branding-color: #8e286b;
   --button-color: #f5b2a3;
 }
 
@@ -24,4 +25,12 @@ h3 {
 }
 p {
   text-align: center;
+}
+
+a {
+  color: var(--branding-color);
+}
+
+a:hover {
+  color: var(--button-color);
 }
