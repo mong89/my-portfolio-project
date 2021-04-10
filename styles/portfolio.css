@@ -113,7 +113,17 @@ footer .contact-links a {
 footer .contact-links a:hover {
   color: black;
 }
+footer p {
+  font-size: 16px;
+}
 
+footer .github-link {
+  color: var(--secondary-color);
+}
+
+footer .github-link:hover {
+  color: black;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 30px;
